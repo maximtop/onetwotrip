@@ -1,0 +1,42 @@
+{
+  "name": "unfoldMatrix",
+  "version": "0.0.1",
+  "description": "test assignment, matrix, onetwotrip",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "babel-node": "babel-node",
+    "gulp": "gulp",
+    "eslint": "eslint",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximtop/unfoldmatrix.git"
+  },
+  "author": "Maxim Topciu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maximtop/unfoldmatrix/issues"
+  },
+  "homepage": "https://github.com/maximtop/unfoldmatrix#readme",
+  "dependencies": {
+    "gulp": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-plugin-transform-runtime": "*",
+    "babel-preset-env": "*",
+    "babel-preset-stage-0": "*",
+    "debug": "*",
+    "eslint": "*",
+    "eslint-config-airbnb-base": "*",
+    "eslint-plugin-flowtype": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jest": "*",
+    "jest": "^20"
+  }
+}
