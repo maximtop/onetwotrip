@@ -20,7 +20,7 @@ You can view solution here
 ```
 https://github.com/maximtop/onetwotrip/blob/master/src/unfold.js
 ```
-Or you can download and install it on your computer
+Or you can download and install it on your computer and run tests
 ### Download
 
 ```
